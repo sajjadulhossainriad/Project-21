@@ -1,0 +1,171 @@
+@media (max-width:1400px){
+    .fixedwidth{
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 0 20px;
+    }
+}
+.headermenu span{
+    display: none;
+}
+@media (max-width:1200px){
+    .bannersection {
+        padding: 150px;
+    }
+    .servicesection {
+        padding: 60px 0;
+    }
+    .servicesection2{
+        padding: 60px 40px;
+    }
+    .aboutsection {
+        padding: 50px 0 50px 0;
+    }
+}
+@media (max-width:992px){
+    .headermenu{
+        width: 60%;
+    }
+    .headerlogo{
+        width: 40%;
+    }
+    .headerlogo h1{
+        font-size: 25px;
+    }
+    .headermenu ul li {
+        margin-left: 15px;
+    }
+    .servicesection {
+        padding: 40px 0;
+    }
+    .bannersection {
+        padding: 100px;
+    }
+    .servicesection2 {
+        padding: 40px 40px;
+    }
+    .servicesection2 .serviceitem i {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .servicesection2 .serviceitem h2 {
+        font-size: 22px;
+    }
+    .servicesection2 .serviceitem p {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+}
+@media (max-width:768px){
+    .headerlogo{
+        width: 50%;
+    }
+    .headermenu{
+        width: 50%;
+    }
+    .headermenu{
+        text-align: right;
+    }
+    .headermenu span {
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .headermenu ul{
+        display: none;
+        opacity: 0;
+        text-align: right;
+    }
+    .headerlogo h1{
+        font-size: 25px;
+    }
+    .bannersection {
+        padding: 80px;
+    }
+    .bannersection h1 {
+        font-size: 36px;
+        color: #ffde10;
+        font-weight: bold;
+        margin-top: -10px;
+    }
+    .bannersection a {
+        margin-top: 30px;
+    }
+    .bannersection h4 {
+        font-size: 18px;
+        margin-top: 18px;
+    }
+    .bannersection h1 {
+        font-size: 30px;
+        color: #ffde10;
+        font-weight: bold;
+        margin-top: -10px;
+    }
+    .servicesection2 .serviceitem{
+        width: 50%;
+        margin-bottom: 25px;
+    }
+    .servicesection2 .serviceitem i {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width:570px){
+    .headerlogo h1 {
+        font-size: 18px;
+    }
+    .bannersection {
+        padding: 60px;
+    }
+    .bannersection h1 {
+        font-size: 25px;
+    }
+    .bannersection a {
+        margin-top: 30px;
+        padding: 7px 15px;
+    }
+    .bannersection h4 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .servicesection {
+        padding: 30px 0;
+    }
+    .servicesection2 {
+        padding: 30px 20px;
+    }
+}
+@media (max-width:400px){
+    .headerlogo h1 {
+        font-size: 15px;
+    }
+    .bannersection {
+        padding: 40px;
+    }
+    .bannersection h1 {
+        font-size: 20px;
+    }
+    .bannersection h4 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .bannersection a {
+        margin-top: 20px;
+        padding: 7px 15px;
+    }
+    .servicesection p {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .servicesection {
+        padding: 20px 0;
+    }
+    .servicesection2 {
+        padding: 20px 10px;
+    }
+    .servicesection2 .serviceitem {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}
